@@ -1,0 +1,315 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    justify-self: unset;
+    height: 70px;
+    position: sticky;
+}
+
+nav {
+    background-image: linear-gradient( #30010a, rgb(255, 0, 8));
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 8rem;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3px;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+.firstname {
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: 125%;
+}
+
+.lastname {
+    color: rgb(255, 0, 8);
+    font-weight: 1000;
+    font-size: 125%;
+    font-style: italic;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 500ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+nav ul li a:hover {
+    color: rgb(255, 0, 8);
+    border-bottom: 1px solid rgb(255, 0, 8);
+}
+
+
+/* bagian konten */
+
+body {
+    background-color: #30010a;
+}
+
+.taii {
+    display: grid;
+    margin: 2px;
+}
+
+.container {
+    display: flex;
+    padding: 15px;
+    margin-left: 90px;
+}
+
+hr {
+    margin: 4px;
+}
+
+.bg-img {
+    margin: 4px;
+    height: 85vh;
+    width: 45%;
+    background-color: rgb(255, 0, 8);
+    border-radius: 10px;
+    display: flex;
+}
+
+.judul-img {
+    position: absolute;
+    margin-left: 13%;
+}
+
+.judul-img h3 {
+    color: #ffffff;
+    font-size: 4vh;
+    margin-top: 12px;
+}
+
+.judul-img p {
+    color: #30010a;
+    font-size: 16px;
+    font-weight: 1000;
+    margin-top: 3px;
+}
+
+.bg-img .text-img img {
+    height: 30%;
+    width: 25vh;
+    margin: 4px;
+    border-radius: 15px;
+}
+
+.text-img p {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 10px;
+    margin-top: 3px;
+    color: #ffffff;
+}
+
+
+/* BAGIAN MASUKAN PROFIL */
+
+.topup-buy {
+    margin: 4px;
+    height: 23vh;
+    width: 90%;
+    background-color: rgb(255, 0, 8);
+    border-radius: 10px;
+}
+
+input {
+    padding: 0.5rem 1rem;
+    width: 95%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    outline: none;
+    margin: 6px;
+}
+
+.topup-buy h3 {
+    color: #ffffff;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.topup-buy p {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 10px;
+    margin-top: 3px;
+    color: #ffffff;
+}
+
+
+/* BAGIAN MENU DIAMOND */
+
+.topup-form {
+    margin: 4px;
+    height: 50vh;
+    width: 90%;
+    background-color: rgb(255, 0, 8);
+    border-radius: 10px;
+}
+
+.topup-form h3 {
+    color: #ffffff;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.topup-form section {
+    display: flex;
+    justify-content: center;
+}
+
+.topup-form section button {
+    width: 30%;
+    margin-top: 5px;
+    height: 60px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(143, 0, 5);
+    border: 1px solid white;
+    transition: all;
+    transition: all 0.5s ease
+}
+
+.topup-form section button:hover,
+.topup-form section button:focus {
+    background: rgb(255, 0, 8);
+}
+
+.topup-form section .button-block {
+    display: block;
+    width: 100%;
+}
+
+.forgot {
+    margin-top: -20px;
+    text-align: right;
+}
+
+.topup-form section button h3 {
+    margin-top: 2px;
+    font-weight: 800;
+    font-size: 15px;
+    color: rgb(252, 252, 252);
+}
+
+.topup-form section button h3 p {
+    font-weight: 400;
+    margin: 2px;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* BAGIAN PILIH PEMBAYARAN */
+
+.topup-formm {
+    margin: 4px;
+    height: 65vh;
+    width: 90%;
+    background-color: rgb(255, 0, 8);
+    border-radius: 10px;
+}
+
+.topup-formm h3 {
+    color: #ffffff;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.buy-order {
+    margin: 10px;
+    display: grid;
+}
+
+.dana button {
+    margin: 10px;
+    width: 97%;
+    height: 10vh;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+.dana button img {
+    width: 12%;
+    height: 100%;
+    margin-right: 85%;
+}
+
+
+/*  BAGIAN KONFIRMASI TOP UP */
+
+.topup-sutmit {
+    margin: 4px;
+    height: 30vh;
+    width: 90%;
+    background-color: rgb(255, 0, 8);
+    border-radius: 10px;
+}
+
+input {
+    padding: 0.5rem 1rem;
+    width: 98%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    outline: none;
+    margin: 6px;
+}
+
+.topup-sutmit h3 {
+    color: #ffffff;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.topup-sutmit p {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 10px;
+    margin-top: 3px;
+    color: #ffffff;
+}
+
+.topup-sutmit button {
+    margin: 0 10px 0 10px;
+    height: 40px;
+    width: 19%;
+    border: 1px solid #ffffff;
+    border-radius: 13px;
+    background-color: rgb(169, 4, 9);
+    color: rgb(248, 248, 248);
+    font-weight: 600;
+}
+
+
+/* BAGIAN FOOTER */
