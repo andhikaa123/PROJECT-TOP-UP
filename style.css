@@ -81,20 +81,20 @@ nav ul li a:hover {
 
 .conainer {
     padding: 15px;
-    margin-left: 90px;
+    margin-left: 135px;
     display: flex;
 }
 
 .slider {
     width: 600px;
-    height: 210x;
+    height: 250x;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .slides {
     width: 500%;
-    height: 210px;
+    height: 250px;
     display: flex;
 }
 
@@ -105,12 +105,12 @@ nav ul li a:hover {
 .slide {
     width: 20%;
     transition: 2s;
-    height: 210px;
+    height: 250px;
 }
 
 .slide img {
     width: 600px;
-    height: 210px;
+    height: 250px;
 }
 
 .navigation-manual {
@@ -154,8 +154,8 @@ nav ul li a:hover {
 /*bagian teks*/
 
 .text-judul {
-    margin: 9px;
-    font-size: 200%;
+    margin-left: 10px;
+    font-size: 280%;
     font-weight: 260;
     color: rgb(255, 0, 8);
 }
